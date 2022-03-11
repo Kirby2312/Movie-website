@@ -1,0 +1,29 @@
+@media screen and (max-width: 900px){
+	body{
+		background-color: lightcoral;
+	}
+}
+
+@media screen and (max-width: 600px){
+	body{
+		background-color: lightgoldenrodyellow; 
+	}
+}
+
+#review{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+}
+
+.card-img-top{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+#accordion{
+	padding: 30px;
+}
